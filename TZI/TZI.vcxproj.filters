@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Lab1 Headers">
+      <UniqueIdentifier>{4e632990-16de-422f-815e-42501f643e71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lab2 Headers">
+      <UniqueIdentifier>{7eef32bb-83ab-4055-9043-2ea4bb56cb75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lab1">
+      <UniqueIdentifier>{543f58bc-8c69-4e1d-a6fa-4d42d942778b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lab2">
+      <UniqueIdentifier>{498d6c49-8e8a-497b-8f6f-27990772f058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lab3 Headers">
+      <UniqueIdentifier>{c7e57d82-9bfd-4c9f-aa0a-66995f081fec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lab3">
+      <UniqueIdentifier>{e210b229-1cd6-4d5b-99c8-0f60dd356be7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lab4 Headers">
+      <UniqueIdentifier>{d00f89c4-dd2d-494a-8e21-a7f75adf5d99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lab4">
+      <UniqueIdentifier>{d7093bb3-ec1f-4747-8f94-29921421c6db}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TZI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5.cpp">
+      <Filter>Source Files\Lab2</Filter>
+    </ClCompile>
+    <ClCompile Include="PseudoRandGenerator.cpp">
+      <Filter>Source Files\Lab1</Filter>
+    </ClCompile>
+    <ClCompile Include="lab1.cpp">
+      <Filter>Source Files\Lab1</Filter>
+    </ClCompile>
+    <ClCompile Include="lab2.cpp">
+      <Filter>Source Files\Lab2</Filter>
+    </ClCompile>
+    <ClCompile Include="RC5.cpp">
+      <Filter>Source Files\Lab3</Filter>
+    </ClCompile>
+    <ClCompile Include="lab3.cpp">
+      <Filter>Source Files\Lab3</Filter>
+    </ClCompile>
+    <ClCompile Include="lab4.cpp">
+      <Filter>Source Files\Lab4</Filter>
+    </ClCompile>
+    <ClCompile Include="RSA.cpp">
+      <Filter>Source Files\Lab4</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FileHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5.h">
+      <Filter>Header Files\Lab2 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PseudoRandGenerator.h">
+      <Filter>Header Files\Lab1 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants_l1.h">
+      <Filter>Header Files\Lab1 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants_l2.h">
+      <Filter>Header Files\Lab2 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="lab1.h">
+      <Filter>Header Files\Lab1 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="lab2.h">
+      <Filter>Header Files\Lab2 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants_l3.h">
+      <Filter>Header Files\Lab3 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RC5.h">
+      <Filter>Header Files\Lab3 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="lab3.h">
+      <Filter>Header Files\Lab3 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="lab4.h">
+      <Filter>Header Files\Lab4 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RSA.h">
+      <Filter>Header Files\Lab4 Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.bat">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
